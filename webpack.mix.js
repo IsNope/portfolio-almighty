@@ -1,20 +1,24 @@
 let mix = require('laravel-mix');
-mix.setPublicPath('./dist')
-var compress_images = require('compress-images'), INPUT_PATH_TO_YOUR_IMAGES, OUTPUT_PATH;
+let compress_images = require('compress-images'), INPUT_PATH_TO_YOUR_IMAGES, OUTPUT_PATH;
+let del = require('del');
 
 INPUT_PATH_TO_YOUR_IMAGES = 'src/images/**/*.{jpg,JPG,jpeg,JPEG,png,svg,gif}';
 OUTPUT_PATH = 'dist/images/';
 
-compress_images(INPUT_PATH_TO_YOUR_IMAGES, OUTPUT_PATH, { compress_force: true, statistic: true, autoupdate: true }, false,
-  { jpg: { engine: 'mozjpeg', command: ['-quality', '60'] } },
-  { png: { engine: 'pngquant', command: ['--quality=20-50'] } },
-  { svg: { engine: 'svgo', command: '--multipass' } },
-  { gif: { engine: 'gifsicle', command: ['--colors', '64', '--use-col=web'] } }, function (error, completed, statistic) {
-    console.log('\n -------------');
-    console.log(error);
-    console.log(completed);
-    console.log(statistic);
-  });
+del('dist/images').then(() => {
+  compress_images(INPUT_PATH_TO_YOUR_IMAGES, OUTPUT_PATH, { compress_force: true, statistic: true, autoupdate: true }, false,
+    { jpg: { engine: 'mozjpeg', command: ['-quality', '60'] } },
+    { png: { engine: 'pngquant', command: ['--quality=20-50'] } },
+    { svg: { engine: 'svgo', command: '--multipass' } },
+    { gif: { engine: 'gifsicle', command: ['--colors', '64', '--use-col=web'] } }, function (error, completed, statistic) {
+      console.log('\n -------------');
+      console.log(error);
+      console.log(completed);
+      console.log(statistic);
+    });
+});
+mix.setPublicPath('./dist');
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -29,6 +33,7 @@ compress_images(INPUT_PATH_TO_YOUR_IMAGES, OUTPUT_PATH, { compress_force: true, 
 mix.js('./src/scripts/app.js', './dist')
   .sass('./src/styles/app.scss', './dist')
   .disableNotifications();
+
 // Full API
 // mix.js(src, output);
 // mix.react(src, output); <-- Identical to mix.js(), but registers React Babel compilation.
