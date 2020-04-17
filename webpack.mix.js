@@ -32,6 +32,16 @@ mix.setPublicPath('./dist');
 
 mix.js('./src/scripts/app.js', './dist')
   .sass('./src/styles/app.scss', './dist')
+  .browserSync({
+    notify: false,
+    proxy: 'http://bio.io/',
+    files: [
+      '**/*.html',
+      '**/*.js',
+      '**/*.vue',
+      '**/*.css'
+    ]
+  })
   .disableNotifications();
 
 // Full API

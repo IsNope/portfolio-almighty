@@ -1,0 +1,17 @@
+<template>
+    <main class="px-0">
+        <Nav/>
+        <div class="wrapper">
+            <Styleguide/>
+        </div>
+    </main>
+</template>
+
+<script>
+    export default {
+      name: 'App',
+        mounted() {
+            console.log('Component mounted.')
+        }
+    }
+</script>
