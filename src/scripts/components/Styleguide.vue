@@ -311,6 +311,24 @@
       </div>
     </div>
 
+    <!-- Displays -->
+
+    <div class="row">
+      <div class="col-12">
+        <div class="bs-component">
+          <div class="display-1">Display 1</div>
+          <div class="display-2">Display 2</div>
+          <div class="display-3">Display 3</div>
+          <div class="display-4">Display 4</div>
+          <h3>
+            Heading
+            <small class="text-muted">with muted text</small>
+          </h3>
+          <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        </div>
+      </div>
+    </div>
+
     <!-- Blockquotes -->
 
     <div class="row">
