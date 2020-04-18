@@ -1,0 +1,8 @@
+File from: [src/images/avatar-icon.jpg]
+
+File to: [dist/images/avatar-icon.jpg]
+
+Compression algorithm: [mozjpeg]
+
+Description: Error: Command failed: C:\Users\jeric\Documents\Projects\Me\bio\node_modules\mozjpeg\vendor\cjpeg.exe -quality 60 -outfile dist/images/avatar-icon.jpg src/images/avatar-icon.jpg
+Unrecognized input file format --- perhaps you need -targa
