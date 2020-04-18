@@ -32,6 +32,8 @@ mix.setPublicPath('./dist');
 
 mix.js('./src/scripts/app.js', './dist')
   .sass('./src/styles/app.scss', './dist')
+  .copy('./src/fonts', './dist/fonts')
+  .options({ processCssUrls: false })
   .browserSync({
     notify: false,
     proxy: 'http://bio.io/',
