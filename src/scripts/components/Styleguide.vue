@@ -21,6 +21,7 @@
           <button type="button" class="btn btn-warning">Warning</button>
           <button type="button" class="btn btn-danger">Danger</button>
           <button type="button" class="btn btn-link">Link</button>
+          <button type="button" class="btn btn-dark">Dark</button>
         </p>
 
         <p class="bs-component">
@@ -40,6 +41,7 @@
           <button type="button" class="btn btn-outline-info">Info</button>
           <button type="button" class="btn btn-outline-warning">Warning</button>
           <button type="button" class="btn btn-outline-danger">Danger</button>
+          <button type="button" class="btn btn-outline-dark">Dark</button>
         </p>
 
         <div class="bs-component">

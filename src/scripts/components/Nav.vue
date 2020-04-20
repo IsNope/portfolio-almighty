@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="javascript:void(0)" id="themeSwitchBtn">
       <img src="dist/images/avatar.jpeg" width="30px" height="30px" class="img-fluid rounded-circle" alt="">
       Jeric Epon
     </a>

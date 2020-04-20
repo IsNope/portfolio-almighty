@@ -1,5 +1,5 @@
 <template>
-    <main class="px-0">
+    <main class="px-0" :class="{dark}">
         <Nav/>
         <div class="wrapper">
             <Styleguide/>
@@ -10,6 +10,11 @@
 <script>
     export default {
       name: 'App',
+      data() {
+          return {
+            dark: false
+          }
+      },
         mounted() {
             console.log('Component mounted.')
         }

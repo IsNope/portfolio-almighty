@@ -1,0 +1,18 @@
+.navbar {
+  &-brand {
+    @extend %transition;
+  }
+
+  &-light {
+    @extend %transition;
+
+    .dark & {
+      @extend .bg-dark,
+      .navbar-dark;
+    }
+  }
+
+  .nav-link {
+    @extend %transition;
+  }
+}

@@ -1,0 +1,9 @@
+body {
+  transition: background-color 0.4s ease-out 0.1s, color 0.4s ease-out 0.1s;
+
+  &.dark {
+    transition: background-color 0.4s ease-in 0.1s, color 0.4s ease-in 0.1s;
+    background-color: $dark;
+    color: $light;
+  }
+}
