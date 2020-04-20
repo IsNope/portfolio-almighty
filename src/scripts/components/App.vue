@@ -1,9 +1,7 @@
 <template>
     <main class="px-0">
         <Nav/>
-        <div class="wrapper">
-            <Styleguide/>
-        </div>
+        <ComingSoon/>
     </main>
 </template>
 
