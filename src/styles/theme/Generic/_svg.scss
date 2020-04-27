@@ -1,0 +1,26 @@
+.nav-item {
+  &>#dark-mode {
+    display: none;
+
+    .dark & {
+      display: block;
+    }
+  }
+
+  &>#light-mode {
+    display: block;
+
+    .dark & {
+      display: none;
+    }
+  }
+
+  #bugicon,
+  #facebook,
+  #instagram,
+  #linkedin {
+    .dark & {
+      fill: $white;
+    }
+  }
+}

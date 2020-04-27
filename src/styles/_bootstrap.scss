@@ -14,6 +14,7 @@
 @import "./theme/Generic/element";
 @import "./theme/Generic/fonts";
 @import "./theme/Generic/type";
+@import "./theme/Generic/svg";
 @import "~bootstrap/scss/images";
 @import "~bootstrap/scss/grid";
 @import "~bootstrap/scss/tables";
@@ -24,7 +25,6 @@
 @import "~bootstrap/scss/input-group";
 @import "~bootstrap/scss/custom-forms";
 @import "~bootstrap/scss/nav";
-@import "~bootstrap/scss/navbar";
 @import "theme/Components/navbar";
 @import "~bootstrap/scss/card";
 @import "~bootstrap/scss/breadcrumb";
@@ -42,8 +42,7 @@
 @import "~bootstrap/scss/progress";
 @import "~bootstrap/scss/media";
 @import "~bootstrap/scss/toasts";
-@import "~bootstrap/scss/tooltip";
+@import "./theme/Components/tooltip";
 @import "~bootstrap/scss/popover";
 @import "~bootstrap/scss/carousel";
 @import "~bootstrap/scss/print";
-

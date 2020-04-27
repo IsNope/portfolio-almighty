@@ -30,9 +30,4 @@ const app = new Vue({
   render: h => h(App)
 }).$mount('#app');
 
-// Theme switcher
-themeSwitchBtn.addEventListener('click', (e) => {
-  document.body.classList.toggle('dark');
-});
-
 
