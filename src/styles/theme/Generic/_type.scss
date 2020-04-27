@@ -64,23 +64,27 @@ h6,
 // Type display classes
 .display-1 {
   @include font-size($display1-size);
+  font-family: $font-family-serif;
   font-weight: $display1-weight;
   line-height: $display-line-height;
 }
 
 .display-2 {
+  font-family: $font-family-serif;
   @include font-size($display2-size);
   font-weight: $display2-weight;
   line-height: $display-line-height;
 }
 
 .display-3 {
+  font-family: $font-family-serif;
   @include font-size($display3-size);
   font-weight: $display3-weight;
   line-height: $display-line-height;
 }
 
 .display-4 {
+  font-family: $font-family-serif;
   @include font-size($display4-size);
   font-weight: $display4-weight;
   line-height: $display-line-height;

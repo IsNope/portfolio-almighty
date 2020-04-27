@@ -10,7 +10,8 @@ try {
   window.Popper = require('popper.js').default;
   window.$ = window.jQuery = require('jquery');
 
-  require('bootstrap');
+  // require('bootstrap');
+  require('../../node_modules/bootstrap/js/src/tooltip.js');
 } catch (e) { }
 
 /**
@@ -53,3 +54,6 @@ try {
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+// Initialize libraries/plugins
+$("html, body").tooltip({ selector: '[data-toggle=tooltip]' });

@@ -4,25 +4,29 @@
 // Required
 @import "~bootstrap/scss/functions";
 @import "./theme/Settings/variables";
+@import "./theme/Settings/theme_mixin";
+@import "./theme/Settings/placeholders";
 @import "./theme/Settings/mixin";
-@import "~bootstrap/scss/mixins";
 
 // Optional
 @import "~bootstrap/scss/root";
 @import "~bootstrap/scss/reboot";
+@import "./theme/Generic/element";
 @import "./theme/Generic/fonts";
 @import "./theme/Generic/type";
+@import "./theme/Generic/svg";
 @import "~bootstrap/scss/images";
 @import "~bootstrap/scss/grid";
 @import "~bootstrap/scss/tables";
 @import "~bootstrap/scss/forms";
-@import "~bootstrap/scss/buttons";
+@import "./theme/Components/buttons";
 @import "~bootstrap/scss/transitions";
 @import "~bootstrap/scss/dropdown";
 @import "~bootstrap/scss/input-group";
 @import "~bootstrap/scss/custom-forms";
 @import "~bootstrap/scss/nav";
-@import "~bootstrap/scss/navbar";
+@import "theme/Components/navbar";
+@import "theme/Components/hamburger";
 @import "~bootstrap/scss/card";
 @import "~bootstrap/scss/breadcrumb";
 @import "~bootstrap/scss/alert";
@@ -39,8 +43,9 @@
 @import "~bootstrap/scss/progress";
 @import "~bootstrap/scss/media";
 @import "~bootstrap/scss/toasts";
-@import "~bootstrap/scss/tooltip";
+@import "./theme/Components/tooltip";
+@import "./theme/Components/hero-banner";
+@import "./theme/Components/hamburger";
 @import "~bootstrap/scss/popover";
 @import "~bootstrap/scss/carousel";
 @import "~bootstrap/scss/print";
-

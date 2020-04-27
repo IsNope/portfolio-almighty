@@ -1,15 +1,19 @@
 <template>
-    <main class="px-0">
-        <Nav/>
-        <ComingSoon/>
-    </main>
+  <main class="px-0">
+    <Nav />
+    <div class="wrapper h-100">
+      <HeroBanner />
+    </div>
+  </main>
 </template>
 
 <script>
-    export default {
-      name: 'App',
-        mounted() {
-            console.log('Component mounted.')
-        }
-    }
+export default {
+  name: "App",
+  data() {
+    return {
+      dark: false
+    };
+  }
+};
 </script>

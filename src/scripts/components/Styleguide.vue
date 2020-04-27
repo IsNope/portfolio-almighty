@@ -21,6 +21,7 @@
           <button type="button" class="btn btn-warning">Warning</button>
           <button type="button" class="btn btn-danger">Danger</button>
           <button type="button" class="btn btn-link">Link</button>
+          <button type="button" class="btn btn-dark">Dark</button>
         </p>
 
         <p class="bs-component">
@@ -40,6 +41,7 @@
           <button type="button" class="btn btn-outline-info">Info</button>
           <button type="button" class="btn btn-outline-warning">Warning</button>
           <button type="button" class="btn btn-outline-danger">Danger</button>
+          <button type="button" class="btn btn-outline-dark">Dark</button>
         </p>
 
         <div class="bs-component">
@@ -171,7 +173,7 @@
             <div class="collapse navbar-collapse" id="navbarColor01">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Features</a>
@@ -201,7 +203,7 @@
             <div class="collapse navbar-collapse" id="navbarColor02">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Features</a>
@@ -231,7 +233,7 @@
             <div class="collapse navbar-collapse" id="navbarColor03">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Features</a>

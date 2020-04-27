@@ -1,0 +1,42 @@
+.nav-item {
+
+  .nav-link {
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
+  }
+
+  #dark-mode {
+    display: none !important;
+
+    .dark & {
+      display: block !important;
+      ;
+    }
+  }
+
+  #light-mode {
+    display: block !important;
+
+    .dark & {
+      display: none !important;
+    }
+  }
+
+  #bugicon,
+  #facebook,
+  #instagram,
+  #linkedin {
+    .dark & {
+      fill: $white;
+    }
+  }
+}
+
+.btn {
+  #download {
+    .dark & {
+      fill: $black;
+    }
+  }
+}
