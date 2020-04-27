@@ -1,8 +1,8 @@
 <template>
   <main class="px-0">
     <Nav />
-    <div class="wrapper">
-      <Styleguide />
+    <div class="wrapper h-100">
+      <HeroBanner />
     </div>
   </main>
 </template>

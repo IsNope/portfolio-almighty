@@ -1,17 +1,25 @@
 .nav-item {
-  &>#dark-mode {
-    display: none;
+
+  .nav-link {
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
+  }
+
+  #dark-mode {
+    display: none !important;
 
     .dark & {
-      display: block;
+      display: block !important;
+      ;
     }
   }
 
-  &>#light-mode {
-    display: block;
+  #light-mode {
+    display: block !important;
 
     .dark & {
-      display: none;
+      display: none !important;
     }
   }
 
@@ -21,6 +29,14 @@
   #linkedin {
     .dark & {
       fill: $white;
+    }
+  }
+}
+
+.btn {
+  #download {
+    .dark & {
+      fill: $black;
     }
   }
 }
