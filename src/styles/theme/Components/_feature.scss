@@ -1,0 +1,4 @@
+.feature {
+  @include fluid-padding-top(map-get($grid-breakpoints, md), map-get($grid-breakpoints, ul), 60px, 155px);
+  @include fluid-padding-bottom(map-get($grid-breakpoints, md), map-get($grid-breakpoints, ul), 60px, 155px);
+}
