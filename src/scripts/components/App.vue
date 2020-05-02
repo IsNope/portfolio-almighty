@@ -4,6 +4,7 @@
     <div class="wrapper h-100">
       <HeroBanner />
       <Feature />
+      <SkillSet />
     </div>
   </main>
 </template>
