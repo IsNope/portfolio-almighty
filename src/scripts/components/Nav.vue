@@ -36,7 +36,7 @@
             <a
               class="nav-link"
               id="light-mode"
-              href="#"
+              href="javascript:void(0)"
               data-toggle="tooltip"
               data-placement="bottom"
               title="Join the dark side?"
@@ -46,7 +46,7 @@
             <a
               class="nav-link"
               id="dark-mode"
-              href="#"
+              href="javascript:void(0)"
               data-toggle="tooltip"
               data-placement="bottom"
               title="Comback to light!"

@@ -1,0 +1,11 @@
+<template lang="xml">
+  <svg id="responsive" width="30" height="41" viewBox="0 0 30 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M23.7729 2.70264H5.45793C3.4349 2.70264 1.79492 4.34262 1.79492 6.36564V35.6697C1.79492 37.6927 3.4349 39.3327 5.45793 39.3327H23.7729C25.796 39.3327 27.4359 37.6927 27.4359 35.6697V6.36564C27.4359 4.34262 25.796 2.70264 23.7729 2.70264Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M14.6152 32.0066H14.6336" stroke="#000000" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+  </svg>
+</template>
+<script>
+  export default {
+    name: "ResponsiveIcon"
+  };
+</script>

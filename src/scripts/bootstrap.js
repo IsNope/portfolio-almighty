@@ -56,4 +56,7 @@ try {
 // });
 
 // Initialize libraries/plugins
-$("html, body").tooltip({ selector: '[data-toggle=tooltip]' });
+$("html, body").tooltip({
+  selector: '[data-toggle=tooltip]',
+  trigger: window.innerWidth > 991.98 ? 'hover' : 'focus'
+});
