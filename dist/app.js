@@ -595,8 +595,32 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'SkillSet'
+  name: "SkillSet",
+  data: function data() {
+    return {
+      frontEndSkills: ["Programming", "Web development", "Cross-platform", "Page Optimization", "Drinking coffee", "Smashing keyboards", "Cursing computers"],
+      designerSkills: ["UI/UX Design", "Responsive Design", "Minimal Design", "Copying and mixing ideas from other designers"]
+    };
+  }
 });
 
 /***/ }),
@@ -18288,7 +18312,63 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("section", { staticClass: "skillset" }, [
     _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "col-lg-6" }, [_c("PieIcon")], 1)
+      _c("div", { staticClass: "row" }, [
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-md-3 d-flex justify-content-center align-items-center order-md-0 order-1"
+          },
+          [
+            _c("div", { staticClass: "d-block" }, [
+              _c("div", { staticClass: "skillset-title h2" }, [
+                _vm._v("Front-End Developer")
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "skillset-body" },
+                _vm._l(_vm.frontEndSkills, function(skill, index) {
+                  return _c("p", { key: index, staticClass: "mb-0" }, [
+                    _vm._v(_vm._s(skill))
+                  ])
+                }),
+                0
+              )
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-6 order-md-1 order-0" }, [
+          _c("figure", [_c("PieIcon")], 1)
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-md-3 d-flex justify-content-center align-items-center order-md-2 order-2"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "d-block" },
+              [
+                _c("div", { staticClass: "skillset-title h2" }, [
+                  _vm._v("Designer")
+                ]),
+                _vm._v(" "),
+                _vm._l(_vm.designerSkills, function(skill, index) {
+                  return _c("p", { key: index, staticClass: "mb-0" }, [
+                    _vm._v(_vm._s(skill))
+                  ])
+                })
+              ],
+              2
+            )
+          ]
+        )
+      ])
     ])
   ])
 }
@@ -35867,8 +35947,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! Z:\Projects\bio\src\scripts\app.js */"./src/scripts/app.js");
-module.exports = __webpack_require__(/*! Z:\Projects\bio\src\styles\app.scss */"./src/styles/app.scss");
+__webpack_require__(/*! C:\Users\jeric\Documents\Projects\Me\bio\src\scripts\app.js */"./src/scripts/app.js");
+module.exports = __webpack_require__(/*! C:\Users\jeric\Documents\Projects\Me\bio\src\styles\app.scss */"./src/styles/app.scss");
 
 
 /***/ })
