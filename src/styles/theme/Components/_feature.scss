@@ -1,4 +1,21 @@
 .feature {
-  @include fluid-padding-top(map-get($grid-breakpoints, md), map-get($grid-breakpoints, ul), 60px, 155px);
-  @include fluid-padding-bottom(map-get($grid-breakpoints, md), map-get($grid-breakpoints, ul), 60px, 155px);
+  @include fluid-padding-top(map-get($grid-breakpoints, md), map-get($grid-breakpoints, ul), 50px, 100px);
+  @include fluid-padding-bottom(map-get($grid-breakpoints, md), map-get($grid-breakpoints, ul), 50px, 100px);
+
+  &-icon {
+    margin-bottom: 24px;
+  }
+
+  &-title {
+    font-family: $font-family-monospace;
+    font-style: normal;
+    font-weight: bold;
+    @include font-size($font-size-base);
+    line-height: 30px;
+    margin-bottom: 0.9594rem;
+  }
+
+  &-body {
+    max-width: 318.15px;
+  }
 }

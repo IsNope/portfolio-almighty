@@ -171,7 +171,6 @@ $sizes: map-merge(
 $body-bg:                   $white !default;
 $body-color:                $dark !default;
 
-
 // Links
 //
 // Style anchor elements.
@@ -213,8 +212,8 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 540px,
-  md: 720px,
+  sm: 375px,
+  md: 870px,
   lg: 960px,
   xl: 1140px
 ) !default;

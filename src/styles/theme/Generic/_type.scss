@@ -1,5 +1,14 @@
 // stylelint-disable declaration-no-important, selector-list-comma-newline-after
 
+// Body font
+body {
+  font-family: $font-family-sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: $font-family-base;
+  line-height: 1.875rem;
+}
+
 //
 // Headings
 //
