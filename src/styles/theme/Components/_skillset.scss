@@ -6,9 +6,30 @@
     margin-bottom: 22.55px;
   }
 
+  &-inner {
+    max-width: 396px;
+    width: 100%;
+  }
+
   figure {
     max-width: 424px;
     margin: auto;
     @include aspect-ratio(1, 1);
+  }
+
+  #pieicon {
+    .dark & {
+      path {
+        stroke: $white;
+
+        &:nth-child(2) {
+          fill: $white;
+
+          & > path {
+            stroke: $white;
+          }
+        }
+      }
+    }
   }
 }
