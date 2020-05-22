@@ -442,6 +442,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Feature'
 });
@@ -17990,10 +17991,7 @@ var render = function() {
       _c("div", { staticClass: "row" }, [
         _c(
           "div",
-          {
-            staticClass:
-              "col-lg-4 text-lg-left text-center mb-lg-0 mb-sm-5 mb-5"
-          },
+          { staticClass: "col-md-4 mb-lg-0 mb-sm-5 mb-5" },
           [
             _c("FeatherIcon", { staticClass: "feature-icon" }),
             _vm._v(" "),
@@ -18001,7 +17999,7 @@ var render = function() {
               _vm._v("Optimized Website")
             ]),
             _vm._v(" "),
-            _c("p", { staticClass: "feature-body mx-lg-0 mx-auto" }, [
+            _c("p", { staticClass: "feature-body mx-lg-0" }, [
               _vm._v(
                 "\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum dolor, tellus facilisis consequat, nibh.\n          Velit tellus, nisl elementum aliquam nunc, ut tristique faucibus dignissim.\n        "
               )
@@ -18012,10 +18010,7 @@ var render = function() {
         _vm._v(" "),
         _c(
           "div",
-          {
-            staticClass:
-              "col-lg-4 text-lg-left text-center mb-lg-0 mb-sm-5 mb-5"
-          },
+          { staticClass: "col-md-4 mb-lg-0 mb-sm-5 mb-5" },
           [
             _c("CodeIcon", { staticClass: "feature-icon" }),
             _vm._v(" "),
@@ -18023,7 +18018,7 @@ var render = function() {
               _vm._v("Pixel-Perfect & Clean Code")
             ]),
             _vm._v(" "),
-            _c("p", { staticClass: "feature-body mx-lg-0 mx-auto" }, [
+            _c("p", { staticClass: "feature-body mx-lg-0" }, [
               _vm._v(
                 "\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum dolor, tellus facilisis consequat, nibh.\n          Velit tellus, nisl elementum aliquam nunc, ut tristique faucibus dignissim.\n        "
               )
@@ -18034,10 +18029,7 @@ var render = function() {
         _vm._v(" "),
         _c(
           "div",
-          {
-            staticClass:
-              "col-lg-4 text-lg-left text-center mb-lg-0 mb-sm-5 mb-0"
-          },
+          { staticClass: "col-md-4 mb-lg-0 mb-sm-5 mb-0" },
           [
             _c("ResponsiveIcon", { staticClass: "feature-icon" }),
             _vm._v(" "),
@@ -18045,7 +18037,7 @@ var render = function() {
               _vm._v("Resposive & Mobile First")
             ]),
             _vm._v(" "),
-            _c("p", { staticClass: "feature-body mx-lg-0 mx-auto" }, [
+            _c("p", { staticClass: "feature-body mx-lg-0" }, [
               _vm._v(
                 "\n          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum dolor, tellus facilisis consequat, nibh.\n          Velit tellus, nisl elementum aliquam nunc, ut tristique faucibus dignissim.\n        "
               )
@@ -18320,29 +18312,22 @@ var render = function() {
               "col-md-3 d-flex justify-content-lg-center align-items-center order-md-0 order-1 py-lg-0 py-4"
           },
           [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "d-block mx-auto skillset-inner text-lg-left text-center"
-              },
-              [
-                _c("div", { staticClass: "skillset-title h2" }, [
-                  _vm._v("Front-End Developer")
-                ]),
-                _vm._v(" "),
-                _c(
-                  "div",
-                  { staticClass: "skillset-body" },
-                  _vm._l(_vm.frontEndSkills, function(skill, index) {
-                    return _c("p", { key: index, staticClass: "mb-0" }, [
-                      _vm._v(_vm._s(skill))
-                    ])
-                  }),
-                  0
-                )
-              ]
-            )
+            _c("div", { staticClass: "d-block mx-auto skillset-inner" }, [
+              _c("div", { staticClass: "skillset-title h2" }, [
+                _vm._v("Front-End Developer")
+              ]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "skillset-body" },
+                _vm._l(_vm.frontEndSkills, function(skill, index) {
+                  return _c("p", { key: index, staticClass: "mb-0" }, [
+                    _vm._v(_vm._s(skill))
+                  ])
+                }),
+                0
+              )
+            ])
           ]
         ),
         _vm._v(" "),
@@ -18359,10 +18344,7 @@ var render = function() {
           [
             _c(
               "div",
-              {
-                staticClass:
-                  "d-block mx-auto skillset-inner text-lg-left text-center"
-              },
+              { staticClass: "d-block mx-auto skillset-inner" },
               [
                 _c("div", { staticClass: "skillset-title h2" }, [
                   _vm._v("Designer")
