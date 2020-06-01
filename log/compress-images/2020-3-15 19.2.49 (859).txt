@@ -1,8 +1,0 @@
-File from: [src/images/Product Slider Item 03.png]
-
-File to: [dist/images/Product Slider Item 03.png]
-
-Compression algorithm: [pngquant]
-
-Description: Error: Command failed: C:\Users\jeric\AppData\Roaming\npm\node_modules\pngquant-bin\vendor\pngquant.exe --quality=20-50 -o dist/images/Product Slider Item 03.png src/images/Product Slider Item 03.png
-  error: 'dist\images\Product Slider Item 03.png' exists; not overwriting
