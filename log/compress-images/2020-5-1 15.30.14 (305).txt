@@ -1,0 +1,7 @@
+File from: [src/images/temp/project/0.jpg]
+
+File to: [dist/images/temp/project/0.jpg]
+
+Compression algorithm: [mozjpeg]
+
+Description: Error: spawn C:\Users\jeric\Documents\Projects\Me\bio\node_modules\mozjpeg\vendor\cjpeg.exe ENOENT
