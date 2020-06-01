@@ -622,6 +622,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     var Masonry = __webpack_require__(/*! masonry-layout */ "./node_modules/masonry-layout/masonry.js");
@@ -20769,17 +20774,38 @@ var render = function() {
         attrs: { id: "grid" }
       },
       _vm._l(6, function(i) {
-        return _c("div", { key: i, staticClass: "col col-lg-4 col-md-6 p-0" }, [
-          _c("figure", { staticClass: "m-0" }, [
-            _c("img", {
-              attrs: {
-                src: "dist/images/temp/project/" + i + ".png",
-                alt: "",
-                srcset: ""
-              }
-            })
-          ])
-        ])
+        return _c(
+          "a",
+          {
+            key: i,
+            staticClass: "col col-lg-4 col-md-6 p-0 portfolio-item",
+            attrs: { href: "#", target: "_blank" }
+          },
+          [
+            _c("figure", { staticClass: "m-0" }, [
+              _c("img", {
+                attrs: {
+                  src: "dist/images/temp/project/" + i + ".png",
+                  alt: "",
+                  srcset: ""
+                }
+              }),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "portfolio-item-overlay d-flex justify-content-center align-items-center"
+                },
+                [
+                  _c("div", { staticClass: "title" }, [
+                    _c("span", [_vm._v("Portfolio " + _vm._s(i))])
+                  ])
+                ]
+              )
+            ])
+          ]
+        )
       }),
       0
     )
@@ -38372,15 +38398,14 @@ __webpack_require__.r(__webpack_exports__);
 /*!**********************************************!*\
   !*** ./src/scripts/components/Portfolio.vue ***!
   \**********************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Portfolio_vue_vue_type_template_id_d13f4922___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Portfolio.vue?vue&type=template&id=d13f4922& */ "./src/scripts/components/Portfolio.vue?vue&type=template&id=d13f4922&");
 /* harmony import */ var _Portfolio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Portfolio.vue?vue&type=script&lang=js& */ "./src/scripts/components/Portfolio.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Portfolio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Portfolio_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -38410,7 +38435,7 @@ component.options.__file = "src/scripts/components/Portfolio.vue"
 /*!***********************************************************************!*\
   !*** ./src/scripts/components/Portfolio.vue?vue&type=script&lang=js& ***!
   \***********************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

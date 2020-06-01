@@ -10,6 +10,53 @@
     }
   }
 
+  &-item {
+    &-overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      .title {
+        @extend .h2;
+        position: relative;
+        padding: 20px 25px;
+        color: #ffffff;
+
+        &>span {
+          z-index: 1;
+          position: relative;
+        }
+
+        &:after {
+          content: ' ';
+          position: absolute;
+          top: auto;
+          right: 0;
+          bottom: 0;
+          left: 0;
+
+          height: 0;
+          width: 100%;
+          transition: all 200ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+          background-color: $black;
+        }
+      }
+    }
+
+    &:hover {
+      .portfolio-item-overlay>.title {
+        &:after {
+          bottom: auto;
+          top: 0;
+          height: 100%;
+          transition: all 200ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+        }
+      }
+    }
+  }
+
   figure {
     @include aspect-ratio(1, 1)
   }
