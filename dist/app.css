@@ -485,6 +485,7 @@ h5,
 h6,
 .h1,
 .h2,
+.portfolio-item-overlay .title,
 .h3,
 .h4,
 .h5,
@@ -507,12 +508,14 @@ h1,
 }
 
 h2,
-.h2 {
+.h2,
+.portfolio-item-overlay .title {
   font-size: 1.625rem;
 }
 @media (max-width: 1200px) {
   h2,
-.h2 {
+.h2,
+.portfolio-item-overlay .title {
     font-size: calc(1.2875rem + 0.45vw);
   }
 }
@@ -10797,6 +10800,40 @@ a.badge-dark:focus, a.badge-dark.focus {
   .portfolio-title {
     margin-bottom: 51px;
   }
+}
+.portfolio-item-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.portfolio-item-overlay .title {
+  position: relative;
+  padding: 20px 25px;
+  color: #ffffff;
+}
+.portfolio-item-overlay .title > span {
+  z-index: 1;
+  position: relative;
+}
+.portfolio-item-overlay .title:after {
+  content: " ";
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  transition: all 200ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  background-color: #000;
+}
+.portfolio-item:hover .portfolio-item-overlay > .title:after {
+  bottom: auto;
+  top: 0;
+  height: 100%;
+  transition: all 200ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .portfolio figure {
   position: relative;
