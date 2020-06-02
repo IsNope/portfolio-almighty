@@ -3,7 +3,7 @@
     <div class="container pr-lg-0">
       <a class="navbar-brand" href="javascript:void(0)">
         <img
-          src="dist/images/avatar.jpeg"
+          src="dist/images/avatar.png"
           width="30px"
           height="30px"
           class="img-fluid rounded-circle"
