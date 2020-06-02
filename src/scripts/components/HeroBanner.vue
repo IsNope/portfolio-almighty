@@ -2,9 +2,9 @@
   <section class="hero-banner h-100">
     <div class="container h-100">
       <div class="row align-items-center h-100">
-        <div class="col-1 d-md-flex d-none justify-content-center align-items-center px-0">
+        <!-- <div class="col-1 d-md-flex d-none justify-content-center align-items-center px-0">
           <HamburgerIcon/>
-        </div>
+        </div> -->
         <div class="col-md-7 col-12">
           <h1 class="display-1 hero-banner-title">Jeric Epon</h1>
           <p class="hero-banner-sub-title">Slapping keyboards since 2016</p>

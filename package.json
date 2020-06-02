@@ -27,8 +27,5 @@
     "vue-template-compiler": "^2.6.10",
     "vue": "^2.5.17"
   },
-  "dependencies": {
-    "masonry-layout": "^4.2.2",
-    "packery": "^2.1.2"
-  }
+  "dependencies": {}
 }
