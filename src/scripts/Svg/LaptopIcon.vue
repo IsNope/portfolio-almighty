@@ -1,0 +1,15 @@
+<template>
+  <svg width="83" height="55" viewBox="0 0 83 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="laptop">
+    <path id="Vector" d="M71.4365 2.41138H11.4365V44.9114H71.4365V2.41138Z" stroke="black" stroke-width="4" stroke-miterlimit="10" />
+    <path id="Vector_2" d="M80.1865 44.9114H2.68652V52.4114H80.1865V44.9114Z" stroke="black" stroke-width="4" stroke-miterlimit="10" />
+    <path id="Vector_3" d="M43.9365 7.41138H38.9365" stroke="black" stroke-width="4" stroke-miterlimit="10" />
+  </g>
+</svg>
+</template>
+
+<script>
+export default {
+
+}
+</script>

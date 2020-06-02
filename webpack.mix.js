@@ -33,7 +33,10 @@ mix.setPublicPath('./dist');
 mix.js('./src/scripts/app.js', './dist')
   .sass('./src/styles/app.scss', './dist')
   .copy('./src/fonts', './dist/fonts')
-  .options({ processCssUrls: false })
+  .options({
+    processCssUrls: true, // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
+    purifyCss: false, // Remove unused CSS selectors.
+  })
   .browserSync({
     notify: false,
     proxy: 'http://bio.io/',
