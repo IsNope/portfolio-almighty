@@ -5,7 +5,8 @@
       <HeroBanner />
       <Feature />
       <SkillSet />
-      <Portfolio/>
+      <Portfolio />
+      <Interests />
     </div>
   </main>
 </template>
