@@ -19107,7 +19107,7 @@ var render = function() {
             {
               staticClass:
                 "btn btn-dark d-flex align-items-center justify-content-center",
-              attrs: { name: "", id: "", href: "#", role: "button" }
+              attrs: { name: "", id: "", href: "/data/CV.pdf", role: "button" }
             },
             [
               _c("DownloadIcon"),

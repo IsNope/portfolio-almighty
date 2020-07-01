@@ -15,7 +15,7 @@
             name
             id
             class="btn btn-dark d-flex align-items-center justify-content-center"
-            href="#"
+            href="/data/CV.pdf"
             role="button"
           >
             <DownloadIcon />
