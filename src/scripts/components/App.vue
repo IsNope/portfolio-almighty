@@ -5,7 +5,8 @@
       <HeroBanner />
       <Feature />
       <SkillSet />
-      <Portfolio />
+      <!-- <Portfolio /> -->
+      <MiniProjects />
       <Interests />
     </div>
   </main>
@@ -18,6 +19,9 @@ export default {
     return {
       dark: false
     };
+  },
+  mounted() {
+    fetch("data/data.json").then(data => data.json() ).then(result => console.log(result))
   }
 };
 </script>

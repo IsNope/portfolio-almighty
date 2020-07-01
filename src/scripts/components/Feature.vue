@@ -6,16 +6,14 @@
           <FeatherIcon class="feature-icon" />
           <div class="feature-title">Optimized Website</div>
           <p class="feature-body mx-lg-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum dolor, tellus facilisis consequat, nibh.
-            Velit tellus, nisl elementum aliquam nunc, ut tristique faucibus dignissim.
+            I always consider writing CLEAN & DRY code and proper testing to achieve a fast and light weight website.
           </p>
         </div>
         <div class="col-md-4 mb-lg-0 mb-sm-5 mb-5">
           <CodeIcon class="feature-icon" />
-          <div class="feature-title">Pixel-Perfect & Clean Code</div>
+          <div class="feature-title">Pixel-Perfect</div>
           <p class="feature-body mx-lg-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum dolor, tellus facilisis consequat, nibh.
-            Velit tellus, nisl elementum aliquam nunc, ut tristique faucibus dignissim.
+            I love to translate design into a clean code without wasting any pixels and bringing it into a user friendly UI. 
           </p>
 
         </div>
@@ -23,8 +21,7 @@
           <ResponsiveIcon class="feature-icon" />
           <div class="feature-title">Resposive & Mobile First</div>
           <p class="feature-body mx-lg-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum dolor, tellus facilisis consequat, nibh.
-            Velit tellus, nisl elementum aliquam nunc, ut tristique faucibus dignissim.
+            Due to years of experience, I gained a lot of skills including the ability to write a code that supports mobile and smaller devices.
           </p>
         </div>
       </div>
