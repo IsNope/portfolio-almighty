@@ -38,7 +38,7 @@ export default {
         "Page Optimization",
         "Drinking coffee",
         "Smashing keyboards",
-        "Cursing computers"
+        "Code isn't working, crying in front of my computer"
       ],
       designerSkills: [
         "UI/UX Design",
